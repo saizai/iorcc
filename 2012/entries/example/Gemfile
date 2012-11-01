@@ -1,0 +1,21 @@
+source 'http://rubygems.org'
+
+# Put all your library dependencies in here.
+
+group :development do
+  # Put stuff not essential to testing here (eg debuggers), as a courtesy to Travis CI.
+  
+  # gem 'ruby-prof'
+  case RUBY_VERSION
+    when '1.8.7'
+      # gem 'ruby-debug'
+    when '1.9.2', '1.9.3'
+	    # gem 'ruby-debug19', :require => 'ruby-debug'
+  end
+end
+
+group :test do
+  # gem 'rake' # mandatory unless you specify a different test script in .travis.yml (which this example does)
+  gem 'rspec'
+  # gem 'rspec-mocks'
+end
