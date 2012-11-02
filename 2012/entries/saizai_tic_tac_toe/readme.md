@@ -5,6 +5,8 @@ What it does:
 ===
 Just plays tic tac toe. Stupidly.
 
+NOTE: This is _not_ an actual obfuscated example. It does nothing clever at all. It's just meant as a template for how to structure your entry.
+
 
 How to run it:
 ===
@@ -21,4 +23,4 @@ game.input '3' # ... etc - board is ordered left->right, top->bottom, starting f
 What it _really_ does, and how it does it (rot 13):
 ===
 
-Fghcvqyl. Gbyq lbh.
+Ab frevbhfyl, nyy vg qbrf vf cynl gvp gnp gbr fghcvqyl. Gbyq lbh.
