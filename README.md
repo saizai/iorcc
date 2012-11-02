@@ -43,11 +43,11 @@ Requirements
 4. All your code must be <~4kB (not including libraries & test). Don't use gzip packing or the like.
 5. Code must be self-contained, and not depend on any external resources (eg a web service).
  * Feel free to split classes into separate files or the like for clarity.
-6. Code must be 100% correct Ruby code — no errors, no warnings. 
+6. Code must be 100% correct Ruby code — no errors, preferably no warnings.
  * If it _also_ manages to run/compile as some other language, that's probably quite clever, but you'll have to provide test coverage for the other language(s) too.
  * Don't just outright punt to some other language — eg ` ` for bash, using a C compiler library, including Java via jruby, or the like.
 
-We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want; just [go here](https://travis-ci.org), sign in,  turn it on for your fork of this repo, and swap out saizai for your github username here: [![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc). Assuming you have a test rake task, it should work automagically when you push.
+We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want. Just [go here](https://travis-ci.org), sign in,  turn it on for your fork of this repo, and swap out saizai for your github username here: [![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc). Assuming you have a test rake task, it should work automagically when you push.
 
 
 Judging criteria
