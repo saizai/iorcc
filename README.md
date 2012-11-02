@@ -62,4 +62,4 @@ Judging criteria
 
 If you aren't a contestant and want to be a judge, email Sai at iorcc@saizai.com. You'll have a few weeks at the start of January to judgificate.
 
-If you have any other questions, please contact Sai at [twitter](http://twitter.com/saizai) or [g+](http://profiles.google.com/saizai).
+If you have any other questions, please contact Sai at [twitter](http://twitter.com/saizai) or [g+](https://plus.google.com/u/0/103112149634414554669/posts/DWqnGfUPNGb).
