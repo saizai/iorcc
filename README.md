@@ -7,6 +7,8 @@ Your mission, should you choose to accept it, is to write the most clever, surpr
 
 Deadline: New Year's eve, midnight UTC.
 
+[![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc)
+
 
 How to submit an entry
 ===
