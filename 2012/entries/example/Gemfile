@@ -15,7 +15,7 @@ group :development do
 end
 
 group :test do
-  # gem 'rake' # mandatory unless you specify a different test script in .travis.yml (which this example does)
+  gem 'rake' # mandatory
   gem 'rspec'
   # gem 'rspec-mocks'
 end
