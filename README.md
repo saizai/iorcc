@@ -35,7 +35,6 @@ Requirements
  * provide a single master rake task called :test in the namespace [entry name]. Other than that, use whatever standard test suite library you want.
  * cover a reasonable set of the functionality (and intentional dysfunctionality) of your code
  * fully pass
- We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want; just [go here](https://travis-ci.org), sign in,  turn it on for your fork of this repo, and swap out saizai for your github username here: [![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc). Assuming you have a test rake task, it should work automagically when you push.
 2. You may use other libraries, so long as they're in your Gemfile and they're fairly standard libraries.
  * "Standard" means "please don't make judges have to learn some obscure library".
  * You get no credit for the library's cleverness, nor for taking advantage of what would be acknowledged as bugs in the library. (Be a good OSS citizen and just report those w/ a fix.) Basically, don't try to sneak something in through a library, but feel free to use them as normal utilities.
@@ -47,6 +46,8 @@ Requirements
 6. Code must be 100% correct Ruby code — no errors, no warnings. 
  * If it _also_ manages to run/compile as some other language, that's probably quite clever, but you'll have to provide test coverage for the other language(s) too.
  * Don't just outright punt to some other language — eg ` ` for bash, using a C compiler library, including Java via jruby, or the like.
+
+We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want; just [go here](https://travis-ci.org), sign in,  turn it on for your fork of this repo, and swap out saizai for your github username here: [![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc). Assuming you have a test rake task, it should work automagically when you push.
 
 
 Judging criteria
