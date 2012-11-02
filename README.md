@@ -24,11 +24,13 @@ Feel free to change whatever you want up until then. Also, feel free to submit u
 Requirements
 ===
 
-0. See the example readme.md for what it should include. Be sure to say in plain English what your code _supposedly_ does and how to run it. It should also have a Rot13 encoded section explaining what it _really_ does and _how_ it works (i.e. document whatever crazy tricks you employed).
-1. You must provide a test suite that shows _what_ your code does. (You're being judged on _how_ it does that.) The test suite must:
- * [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) and show as passing its automated tests. Use whatever standard test suite library you want.
+0. See the example readme.md for what it should include. Be sure to say in plain English what your code _supposedly_ does, and how to run it.
+ * It should also have a Rot13 encoded section explaining what it _really_ does and _how_ it works (i.e. document whatever crazy tricks you employed).
+1. You must provide a test suite that shows _what_ your code does. (You're being judged on _how_ it does that, and if it does something nonobvious.) The test suite must:
+ * provide a single master rake task called :test in the namespace [entry name]. Other than that, use whatever standard test suite library you want.
  * cover a reasonable set of the functionality (and intentional dysfunctionality) of your code
  * pass
+ * We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want.
 2. You must use the most current versions of everything (i.e. Ruby 1.8/1.9, current/canonical libraries, etc)
 3. You may use other libraries, so long as they're in your Gemfile and they're fairly standard libraries.
  * "Standard" means "please don't make judges have to learn some obscure library".
