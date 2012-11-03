@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+script = File.expand_path('../../lib/column.rb',__FILE__)
+require script
+
+require 'curses'
+include Curses
+
+init_screen
+begin
+  crmode
+  f = ['-:',':-','::']
+  lines = IO.read(script).lines
+  loop do
+    f.each_index do |i|
+      a,b = f[i], (f[i+1] || f[0])
+      6.times do |i|
+        fmt = ([b]*(i+1)+[a]*(5-i)).join('|')
+        setpos(0,0)
+        addstr fmt
+        Column.format(lines,' ',fmt).each_with_index do |l, i|
+          setpos(i+3, 5)
+          addstr l
+          refresh
+        end
+        sleep 0.4
+      end
+    end
+  end
+rescue Interrupt
+ensure
+  close_screen
+end
+

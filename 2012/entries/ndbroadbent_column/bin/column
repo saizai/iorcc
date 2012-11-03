@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require File.expand_path('../../lib/column',__FILE__)
+begin
+  puts Column.format(STDIN.lines,*{'-d'=>' ','-f'=>''}.map{|c,d|Hash[*ARGV][c]||d})
+rescue => ex
+  abort ex.message.sub(/odd(.*) f.*/, 'Wrong\1!')
+end
