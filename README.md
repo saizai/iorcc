@@ -49,6 +49,8 @@ Requirements
 
 We'll use [use Travis CI](http://about.travis-ci.org/docs/user/languages/ruby/) to monitor it; you can too if you want. Just [go here](https://travis-ci.org), sign in,  turn it on for your fork of this repo, and swap out saizai for your github username here: [![Build Status](https://travis-ci.org/saizai/iorcc.png)](https://travis-ci.org/saizai/iorcc). Assuming you have a test rake task, it should work automagically when you push.
 
+It'll also work automagically when you make a pull request even if you _don't_ do anything other than have the test task; the result is displayed [in the pull details](https://github.com/saizai/iorcc/pull/1).
+
 
 Judging criteria
 ===
@@ -63,3 +65,5 @@ Judging criteria
 If you aren't a contestant and want to be a judge, email Sai at iorcc@saizai.com. You'll have a few weeks at the start of January to judgificate.
 
 If you have any other questions, please contact Sai at [twitter](http://twitter.com/saizai) or [g+](https://plus.google.com/u/0/103112149634414554669/posts/DWqnGfUPNGb).
+
+If you'd like to help sponsor this competition (so we can give prizes to the winners), please email Sai at iorcc@saizai.com.
